@@ -1,0 +1,1709 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-14 06:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: api/brain.py:95
+msgid "Untitled"
+msgstr "Без названия"
+
+#: api/brain.py:134
+msgid "Role"
+msgstr "Роль"
+
+#: api/brain.py:134 api/templates/oauth_authorize.html:56
+msgid "Username"
+msgstr "Логин"
+
+#: api/brain.py:134 api/brain.py:142
+msgid "Email"
+msgstr "Эл. почта"
+
+#: api/brain.py:135
+msgid "Last seen"
+msgstr "Был(а) в сети"
+
+#: api/brain.py:142
+msgid "Brand"
+msgstr "Бренд"
+
+#: api/brain.py:142
+msgid "Contact"
+msgstr "Контактное лицо"
+
+#: api/brain.py:142
+msgid "Phone"
+msgstr "Телефон"
+
+#: api/brain.py:143
+msgid "Niche"
+msgstr "Ниша"
+
+#: api/brain.py:143
+msgid "Social"
+msgstr "Соцсети"
+
+#: api/brain.py:144
+msgid "Brand notes"
+msgstr "Заметки о бренде"
+
+#: api/brain.py:145
+msgid "Audience"
+msgstr "Аудитория"
+
+#: api/brain.py:147
+msgid "Became a client"
+msgstr "Стал клиентом"
+
+#: api/brain.py:153 api/finance.py:239
+msgid "Client"
+msgstr "Клиент"
+
+#: api/brain.py:153 api/brain.py:203 api/brain.py:227 api/brain.py:246
+#: api/finance.py:238
+msgid "Status"
+msgstr "Статус"
+
+#: api/brain.py:154
+msgid "Manager"
+msgstr "Менеджер"
+
+#: api/brain.py:154
+msgid "Start"
+msgstr "Начало"
+
+#: api/brain.py:154
+msgid "End"
+msgstr "Окончание"
+
+#: api/brain.py:155
+msgid "Fee"
+msgstr "Стоимость"
+
+#: api/brain.py:156
+msgid "Platforms"
+msgstr "Платформы"
+
+#: api/brain.py:156
+msgid "Deliverables"
+msgstr "Результаты"
+
+#: api/brain.py:157
+msgid "Goals"
+msgstr "Цели"
+
+#: api/brain.py:157 api/brain.py:179
+msgid "Notes"
+msgstr "Заметки"
+
+#: api/brain.py:161
+#, python-format
+msgid "Project started for %(client)s"
+msgstr "Запущен проект для клиента %(client)s"
+
+#: api/brain.py:172
+msgid "Format"
+msgstr "Формат"
+
+#: api/brain.py:172 api/brain.py:203
+msgid "Stage"
+msgstr "Этап"
+
+#: api/brain.py:173
+msgid "Publish date"
+msgstr "Дата публикации"
+
+#: api/brain.py:173 api/models.py:9
+msgid "Videographer"
+msgstr "Видеограф"
+
+#: api/brain.py:174
+msgid "Editor"
+msgstr "Монтажёр"
+
+#: api/brain.py:174
+msgid "Revisions"
+msgstr "Доработки"
+
+#: api/brain.py:175
+msgid "Location"
+msgstr "Локация"
+
+#: api/brain.py:175
+msgid "Live at"
+msgstr "Ссылка на публикацию"
+
+#: api/brain.py:176 api/brain.py:206
+msgid "Checklist"
+msgstr "Чек-лист"
+
+#: api/brain.py:176 api/brain.py:206
+#, python-format
+msgid "%(done)s/%(total)s done"
+msgstr "Выполнено %(done)s из %(total)s"
+
+#: api/brain.py:177
+msgid "Objective"
+msgstr "Цель"
+
+#: api/brain.py:178
+msgid "Script"
+msgstr "Сценарий"
+
+#: api/brain.py:184
+#, python-format
+msgid "Content planned: %(title)s"
+msgstr "Запланирован материал: %(title)s"
+
+#: api/brain.py:187
+#, python-format
+msgid "Revision #%(n)s requested: %(reason)s"
+msgstr "Запрошена доработка № %(n)s: %(reason)s"
+
+#: api/brain.py:199
+msgid "Unassigned"
+msgstr "Не назначен"
+
+#: api/brain.py:203 api/brain.py:272
+msgid "Assignee"
+msgstr "Исполнитель"
+
+#: api/brain.py:204 api/brain.py:271
+msgid "Due"
+msgstr "Срок"
+
+#: api/brain.py:204 api/brain.py:271
+msgid "Priority"
+msgstr "Приоритет"
+
+#: api/brain.py:205 api/brain.py:229
+msgid "For"
+msgstr "Для"
+
+#: api/brain.py:207
+msgid "Chat"
+msgstr "Чат"
+
+#: api/brain.py:207
+#, python-format
+msgid "%(n)s message"
+msgid_plural "%(n)s messages"
+msgstr[0] "%(n)s сообщение"
+msgstr[1] "%(n)s сообщения"
+msgstr[2] "%(n)s сообщений"
+msgstr[3] "%(n)s сообщения"
+
+#: api/brain.py:209
+msgid "Brief"
+msgstr "Задание"
+
+#: api/brain.py:210
+msgid "Completion note"
+msgstr "Комментарий к выполнению"
+
+#: api/brain.py:211
+msgid "Latest chat"
+msgstr "Последние сообщения"
+
+#: api/brain.py:217
+#, python-format
+msgid "Order created for %(who)s: %(title)s"
+msgstr "Создан заказ для исполнителя %(who)s: %(title)s"
+
+#: api/brain.py:217
+msgid "nobody yet"
+msgstr "пока никого"
+
+#: api/brain.py:219
+#, python-format
+msgid "Order completed: %(title)s"
+msgstr "Заказ выполнен: %(title)s"
+
+#: api/brain.py:222
+msgid "Expired"
+msgstr "Срок хранения истёк"
+
+#: api/brain.py:225
+#, python-format
+msgid "by %(name)s"
+msgstr "загрузил(а) %(name)s"
+
+#: api/brain.py:227
+msgid "Version"
+msgstr "Версия"
+
+#: api/brain.py:227
+msgid "Uploaded by"
+msgstr "Загрузил(а)"
+
+#: api/brain.py:228
+msgid "Reviewer"
+msgstr "Проверяющий"
+
+#: api/brain.py:228
+msgid "Reviewed"
+msgstr "Проверено"
+
+#: api/brain.py:229
+msgid "Size"
+msgstr "Размер"
+
+#: api/brain.py:229
+#, python-format
+msgid "%(mb)s MB"
+msgstr "%(mb)s МБ"
+
+#: api/brain.py:230
+#, python-format
+msgid "Note from %(name)s"
+msgstr "Комментарий от %(name)s"
+
+#: api/brain.py:230
+msgid "the uploader"
+msgstr "автора загрузки"
+
+#: api/brain.py:231
+msgid "Review"
+msgstr "Проверка"
+
+#: api/brain.py:236
+#, python-format
+msgid "Submitted %(file)s (v%(v)s) for review"
+msgstr "Отправлен на проверку файл %(file)s (v%(v)s)"
+
+#: api/brain.py:238
+#, python-format
+msgid "Approved %(file)s (v%(v)s)"
+msgstr "Утверждён файл %(file)s (v%(v)s)"
+
+#: api/brain.py:238
+#, python-format
+msgid "Requested changes on %(file)s (v%(v)s)"
+msgstr "Запрошены правки по файлу %(file)s (v%(v)s)"
+
+#: api/brain.py:243
+#, python-format
+msgid "Contract %(n)s"
+msgstr "Договор № %(n)s"
+
+#: api/brain.py:246
+msgid "Number"
+msgstr "Номер"
+
+#: api/brain.py:246
+msgid "Issued"
+msgstr "Дата выдачи"
+
+#: api/brain.py:249
+#, python-format
+msgid "Contract %(n)s created"
+msgstr "Создан договор № %(n)s"
+
+#: api/brain.py:256
+msgid "When"
+msgstr "Когда"
+
+#: api/brain.py:256
+msgid "Until"
+msgstr "До"
+
+#: api/brain.py:256
+msgid "Where"
+msgstr "Где"
+
+#: api/brain.py:257
+msgid "Who"
+msgstr "Участники"
+
+#: api/brain.py:262
+#, python-format
+msgid "%(title)s at %(place)s"
+msgstr "%(title)s — %(place)s"
+
+#: api/brain.py:269
+msgid "Done"
+msgstr "Выполнено"
+
+#: api/brain.py:269
+msgid "Open"
+msgstr "Открыто"
+
+#: api/brain.py:271
+msgid "Section"
+msgstr "Раздел"
+
+#: api/brain.py:277
+#, python-format
+msgid "Done: %(title)s"
+msgstr "Выполнено: %(title)s"
+
+#: api/brain.py:283
+msgid "Personal note"
+msgstr "Личная заметка"
+
+#: api/brain.py:284
+msgid "Author"
+msgstr "Автор"
+
+#: api/brain.py:284
+msgid "Last edited by"
+msgstr "Последние изменения"
+
+#: api/brain.py:287
+#, python-format
+msgid "Note written: %(title)s"
+msgstr "Создана заметка: %(title)s"
+
+#: api/brain.py:289
+#, python-format
+msgid "Note updated: %(title)s"
+msgstr "Обновлена заметка: %(title)s"
+
+#: api/brain.py:325
+#, python-format
+msgid "Past its end date (%(date)s)"
+msgstr "Срок окончания прошёл (%(date)s)"
+
+#: api/brain.py:326
+#, python-format
+msgid "%(n)s overdue: %(items)s"
+msgid_plural "%(n)s overdue: %(items)s"
+msgstr[0] "%(n)s просрочен: %(items)s"
+msgstr[1] "%(n)s просрочено: %(items)s"
+msgstr[2] "%(n)s просрочено: %(items)s"
+msgstr[3] "%(n)s просрочено: %(items)s"
+
+#: api/brain.py:328
+#, python-format
+msgid "%(n)s waiting for your review"
+msgid_plural "%(n)s waiting for your review"
+msgstr[0] "%(n)s ждёт вашей проверки"
+msgstr[1] "%(n)s ждут вашей проверки"
+msgstr[2] "%(n)s ждут вашей проверки"
+msgstr[3] "%(n)s ждут вашей проверки"
+
+#: api/brain.py:331 api/brain.py:335
+msgid "Nothing late or stuck"
+msgstr "Просрочек и задержек нет"
+
+#: api/finance.py:90
+msgid "Enter an amount greater than zero."
+msgstr "Введите сумму больше нуля."
+
+#: api/finance.py:95
+msgid "Choose a category."
+msgstr "Выберите категорию."
+
+#: api/finance.py:97
+#, python-format
+msgid "“%(name)s” is an income category."
+msgstr "«%(name)s» — это категория доходов."
+
+#: api/finance.py:97
+#, python-format
+msgid "“%(name)s” is an expense category."
+msgstr "«%(name)s» — это категория расходов."
+
+#: api/finance.py:125
+msgid "Choose a different account to move the money to."
+msgstr "Выберите другой счёт для перевода."
+
+#: api/finance.py:166
+msgid ""
+"It is used by transactions. Archive it instead to keep your history intact."
+msgstr "Используется в операциях. Чтобы сохранить историю, отправьте в архив вместо удаления."
+
+#: api/finance.py:225
+msgid "Already paid."
+msgstr "Уже оплачено."
+
+#: api/finance.py:238
+msgid "Date"
+msgstr "Дата"
+
+#: api/finance.py:238
+msgid "Type"
+msgstr "Тип"
+
+#: api/finance.py:238
+msgid "Amount"
+msgstr "Сумма"
+
+#: api/finance.py:238
+msgid "Account"
+msgstr "Счёт"
+
+#: api/finance.py:238
+msgid "To account"
+msgstr "На счёт"
+
+#: api/finance.py:238
+msgid "Category"
+msgstr "Категория"
+
+#: api/finance.py:238
+msgid "Group"
+msgstr "Группа"
+
+#: api/finance.py:239 api/telegram.py:107 api/telegram.py:111
+msgid "Project"
+msgstr "Проект"
+
+#: api/finance.py:239
+msgid "Counterparty"
+msgstr "Контрагент"
+
+#: api/finance.py:239
+msgid "Description"
+msgstr "Описание"
+
+#: api/finance.py:239
+msgid "Reference"
+msgstr "Номер документа"
+
+#: api/finance.py:239
+msgid "Paid date"
+msgstr "Дата оплаты"
+
+#: api/finance.py:239
+msgid "Due date"
+msgstr "Срок оплаты"
+
+#: api/finance.py:349
+msgid "End date must be after the start date."
+msgstr "Дата окончания должна быть позже даты начала."
+
+#: api/mcp.py:72
+msgid "That path is not allowed."
+msgstr "Этот путь недоступен."
+
+#: api/mcp.py:75 api/mcp.py:83
+msgid ""
+"Claude can’t open settings, passwords, sign-in, Telegram or AI-connection "
+"pages."
+msgstr "Claude не может открывать настройки, пароли, вход, Telegram и подключения ИИ."
+
+#: api/mcp.py:79
+msgid "No such API path. Use cmd_catalog to see what exists."
+msgstr "Такого пути API нет. Список доступного — в cmd_catalog."
+
+#: api/mcp.py:118
+msgid "Claude asks to see finance data"
+msgstr "Claude просит доступ к финансовым данным"
+
+#: api/mcp.py:118
+msgid "Claude asks to delete something"
+msgstr "Claude просит разрешение на удаление"
+
+#: api/mcp.py:123
+msgid "Approve only if you asked Claude for this."
+msgstr "Одобряйте, только если вы сами просили Claude об этом."
+
+#: api/mcp.py:124
+msgid "Approve"
+msgstr "Одобрить"
+
+#: api/mcp.py:125
+msgid "Deny"
+msgstr "Отклонить"
+
+#: api/mcp.py:146
+msgctxt "of the"
+msgid "client"
+msgstr "клиента"
+
+#: api/mcp.py:146
+msgctxt "of the"
+msgid "project"
+msgstr "проекта"
+
+#: api/mcp.py:146
+msgctxt "of the"
+msgid "content item"
+msgstr "материала"
+
+#: api/mcp.py:147
+msgctxt "of the"
+msgid "order"
+msgstr "заказа"
+
+#: api/mcp.py:147
+msgctxt "of the"
+msgid "contract"
+msgstr "договора"
+
+#: api/mcp.py:147
+msgctxt "of the"
+msgid "team member"
+msgstr "сотрудника"
+
+#: api/mcp.py:148
+msgctxt "of the"
+msgid "comment"
+msgstr "комментария"
+
+#: api/mcp.py:148
+msgctxt "of the"
+msgid "event"
+msgstr "события"
+
+#: api/mcp.py:148
+msgctxt "of the"
+msgid "to-do"
+msgstr "дела"
+
+#: api/mcp.py:149
+msgctxt "of the"
+msgid "page"
+msgstr "страницы"
+
+#: api/mcp.py:149
+msgctxt "of the"
+msgid "file"
+msgstr "файла"
+
+#: api/mcp.py:149
+msgctxt "of the"
+msgid "revision"
+msgstr "доработки"
+
+#: api/mcp.py:169
+msgid "read"
+msgstr "просмотр"
+
+#: api/mcp.py:169
+msgid "create"
+msgstr "создание"
+
+#: api/mcp.py:169
+msgid "change"
+msgstr "изменение"
+
+#: api/mcp.py:169
+msgid "delete"
+msgstr "удаление"
+
+#: api/mcp.py:188
+msgid "body must be a JSON object."
+msgstr "body должен быть JSON-объектом."
+
+#: api/mcp.py:190
+msgid "Claude can’t set or change passwords."
+msgstr "Claude не может задавать или менять пароли."
+
+#: api/mcp.py:203
+msgid ""
+"That approval is not valid for this exact request (wrong id, denied, already "
+"used or expired)."
+msgstr "Это разрешение не подходит для данного запроса (неверный id, отклонено, уже использовано или истекло)."
+
+#: api/mcp.py:208
+msgid "The user denied this request."
+msgstr "Пользователь отклонил этот запрос."
+
+#: api/mcp.py:211
+#, python-format
+msgid ""
+"The user has been asked to approve this in the CMD app / Telegram. When they "
+"say they approved, repeat exactly the same call with approval_id=%(id)s."
+msgstr "Пользователю отправлен запрос на одобрение в приложении CMD / Telegram. Когда он подтвердит, повторите тот же вызов с approval_id=%(id)s."
+
+#: api/mcp.py:404
+msgid "This request was already decided or has expired."
+msgstr "По этому запросу уже принято решение, или он истёк."
+
+#: api/models.py:7
+msgid "Owner / Admin"
+msgstr "Владелец"
+
+#: api/models.py:8
+msgid "Project Manager"
+msgstr "Менеджер проекта"
+
+#: api/models.py:10
+msgid "Video Editor"
+msgstr "Монтажёр"
+
+#: api/models.py:17
+msgid "English"
+msgstr "Английский"
+
+#: api/models.py:54 api/models.py:82
+msgid "Draft"
+msgstr "Черновик"
+
+#: api/models.py:55
+msgid "Active"
+msgstr "Активный"
+
+#: api/models.py:56
+msgid "On Hold"
+msgstr "Приостановлен"
+
+#: api/models.py:57 api/models.py:120 api/models.py:182
+msgid "Completed"
+msgstr "Завершено"
+
+#: api/models.py:58
+msgid "Archived"
+msgstr "В архиве"
+
+#: api/models.py:59 api/models.py:185
+msgid "Cancelled"
+msgstr "Отменено"
+
+#: api/models.py:83
+msgid "Generated"
+msgstr "Сформирован"
+
+#: api/models.py:84
+msgid "Sent"
+msgstr "Отправлен"
+
+#: api/models.py:85
+msgid "Signed"
+msgstr "Подписан"
+
+#: api/models.py:86 api/models.py:333
+msgid "Uploaded"
+msgstr "Загружен"
+
+#: api/models.py:110
+msgid "Planned"
+msgstr "Запланировано"
+
+#: api/models.py:111
+msgid "Scripting"
+msgstr "Сценарий"
+
+#: api/models.py:112
+msgid "Ready for Shooting"
+msgstr "Готово к съёмке"
+
+#: api/models.py:113
+msgid "Shooting"
+msgstr "Съёмка"
+
+#: api/models.py:114
+msgid "Ready for Editing"
+msgstr "Готово к монтажу"
+
+#: api/models.py:115
+msgid "Editing"
+msgstr "Монтаж"
+
+#: api/models.py:116
+msgid "Under Review"
+msgstr "На проверке"
+
+#: api/models.py:117
+msgid "Revision Requested"
+msgstr "На доработке"
+
+#: api/models.py:118 api/models.py:242 api/models.py:307
+msgid "Approved"
+msgstr "Утверждено"
+
+#: api/models.py:119
+msgid "Published"
+msgstr "Опубликовано"
+
+#: api/models.py:179
+msgid "Not Started"
+msgstr "Не начато"
+
+#: api/models.py:180 api/models.py:240
+msgid "In Progress"
+msgstr "В работе"
+
+#: api/models.py:181
+msgid "Waiting for Review"
+msgstr "Ожидает проверки"
+
+#: api/models.py:183
+msgid "Overdue"
+msgstr "Просрочено"
+
+#: api/models.py:184 api/models.py:308
+msgid "Rejected"
+msgstr "Отклонено"
+
+#: api/models.py:188
+msgid "Shoot"
+msgstr "Съёмка"
+
+#: api/models.py:189
+msgid "Edit"
+msgstr "Монтаж"
+
+#: api/models.py:190 api/models.py:301 api/models.py:457
+msgid "Other"
+msgstr "Другое"
+
+#: api/models.py:216
+msgid "Low"
+msgstr "Низкий"
+
+#: api/models.py:216
+msgid "Medium"
+msgstr "Средний"
+
+#: api/models.py:216
+msgid "High"
+msgstr "Высокий"
+
+#: api/models.py:216
+msgid "Urgent"
+msgstr "Срочный"
+
+#: api/models.py:239
+msgid "Requested"
+msgstr "Запрошена"
+
+#: api/models.py:241
+msgid "Resubmitted"
+msgstr "Отправлена повторно"
+
+#: api/models.py:243
+msgid "Closed"
+msgstr "Закрыта"
+
+#: api/models.py:299
+msgid "Hard drive"
+msgstr "Жёсткий диск"
+
+#: api/models.py:299
+msgid "SSD"
+msgstr "SSD"
+
+#: api/models.py:300
+msgid "Memory card"
+msgstr "Карта памяти"
+
+#: api/models.py:300
+msgid "USB flash drive"
+msgstr "Флешка"
+
+#: api/models.py:305
+msgid "Uploading"
+msgstr "Загружается"
+
+#: api/models.py:306
+msgid "Pending Review"
+msgstr "Ожидает проверки"
+
+#: api/models.py:334
+msgid "Handed over in person"
+msgstr "Передано лично"
+
+#: api/models.py:457
+msgid "Bank"
+msgstr "Банк"
+
+#: api/models.py:457
+msgid "Cash"
+msgstr "Наличные"
+
+#: api/models.py:457
+msgid "Card"
+msgstr "Карта"
+
+#: api/models.py:471
+msgid "Revenue"
+msgstr "Выручка"
+
+#: api/models.py:471
+msgid "Other income"
+msgstr "Прочие доходы"
+
+#: api/models.py:472
+msgid "Direct costs"
+msgstr "Прямые затраты"
+
+#: api/models.py:472
+msgid "Payroll"
+msgstr "Фонд оплаты труда"
+
+#: api/models.py:472
+msgid "Operating expenses"
+msgstr "Операционные расходы"
+
+#: api/models.py:472
+msgid "Taxes"
+msgstr "Налоги"
+
+#: api/models.py:489
+msgid "Income"
+msgstr "Доход"
+
+#: api/models.py:490
+msgid "Expense"
+msgstr "Расход"
+
+#: api/models.py:491
+msgid "Transfer"
+msgstr "Перевод"
+
+#: api/models.py:496
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: api/models.py:496
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+#: api/models.py:496
+msgid "Quarterly"
+msgstr "Ежеквартально"
+
+#: api/models.py:496
+msgid "Yearly"
+msgstr "Ежегодно"
+
+#: api/models.py:528
+msgid "Paid"
+msgstr "Оплачено"
+
+#: api/models.py:528
+msgid "Pending"
+msgstr "Не оплачено"
+
+#: api/oauth.py:102
+msgid "This connection link is not valid. Start connecting again from Claude."
+msgstr "Ссылка для подключения недействительна. Начните подключение заново из Claude."
+
+#: api/oauth.py:116
+msgid "Your sign-in expired. Please sign in again."
+msgstr "Время входа истекло. Войдите снова."
+
+#: api/oauth.py:119 api/security.py:117
+msgid ""
+"Wrong or expired code. Check Telegram, or go back and request a new one."
+msgstr "Неверный или устаревший код. Проверьте Telegram или вернитесь назад и запросите новый."
+
+#: api/oauth.py:125 api/security.py:98
+msgid "Too many sign-in attempts. Please wait 15 minutes and try again."
+msgstr "Слишком много попыток входа. Подождите 15 минут и попробуйте снова."
+
+#: api/oauth.py:130
+msgid "Invalid username or password. Please try again."
+msgstr "Неверный логин или пароль. Попробуйте ещё раз."
+
+#: api/oauth.py:132
+msgid "Only the owner and project managers can connect AI apps to CMD."
+msgstr "Подключать ИИ-приложения к CMD могут только владелец и менеджеры проектов."
+
+#: api/oauth.py:135 api/security.py:112
+msgid "Could not send the sign-in code to Telegram. Try again in a minute."
+msgstr "Не удалось отправить код входа в Telegram. Попробуйте через минуту."
+
+#: api/security.py:64
+#, python-format
+msgid ""
+"🔐 Your CMD sign-in code: <code>%(code)s</code>\n"
+"It expires in 5 minutes. If this wasn’t you, change your password."
+msgstr "🔐 Код для входа в CMD: <code>%(code)s</code>\nДействует 5 минут. Если это были не вы, смените пароль."
+
+#: api/security.py:131
+msgid "Connect Telegram first: the sign-in codes are sent there."
+msgstr "Сначала подключите Telegram: коды для входа приходят туда."
+
+#: api/security.py:133
+msgid ""
+"🔐 Two-step sign-in is on. From now on you will get a code here each time "
+"you sign in."
+msgstr "🔐 Двухэтапный вход включён. Теперь при каждом входе сюда будет приходить код."
+
+#: api/security.py:135
+msgid "Wrong password."
+msgstr "Неверный пароль."
+
+#: api/serializers.py:43
+msgid "Chat ID is a number. The person gets it by pressing Start in the bot."
+msgstr "Chat ID — это число. Сотрудник получит его, нажав «Старт» в боте."
+
+#: api/serializers.py:48
+msgid "Password is required."
+msgstr "Укажите пароль."
+
+#: api/serializers.py:50
+msgid "Name is required."
+msgstr "Укажите имя."
+
+#: api/serializers.py:128
+msgid "End date must be after start date."
+msgstr "Дата окончания должна быть позже даты начала."
+
+#: api/serializers.py:130
+msgid "Service fee cannot be negative."
+msgstr "Стоимость услуг не может быть отрицательной."
+
+#: api/serializers.py:133
+msgid "The project manager must be a project manager or an owner."
+msgstr "Менеджером проекта может быть менеджер проектов или владелец."
+
+#: api/serializers.py:202
+msgid "The assigned videographer must have the Videographer role."
+msgstr "У назначенного видеографа должна быть роль «Видеограф»."
+
+#: api/serializers.py:205
+msgid "The assigned editor must have the Editor role."
+msgstr "У назначенного монтажёра должна быть роль «Монтажёр»."
+
+#: api/serializers.py:282
+msgid "The content item does not belong to the selected project."
+msgstr "Материал не относится к выбранному проекту."
+
+#: api/serializers.py:299
+msgid "The submission note cannot be empty."
+msgstr "Комментарий к сдаче работы не может быть пустым."
+
+#: api/telegram.py:107
+msgid "Deadline"
+msgstr "Срок"
+
+#: api/telegram.py:119
+msgid "Open in CMD"
+msgstr "Открыть в CMD"
+
+#: api/telegram.py:145
+#, python-format
+msgid "📎 File: %(name)s"
+msgstr "📎 Файл: %(name)s"
+
+#: api/telegram.py:146
+#, python-format
+msgid "New message · %(title)s"
+msgstr "Новое сообщение · %(title)s"
+
+#: api/telegram.py:146
+#, python-format
+msgid "%(name)s: %(text)s"
+msgstr "%(name)s: %(text)s"
+
+#: api/telegram.py:156
+#, python-format
+msgid ""
+"<b>You are connected to CMD Agency</b>\n"
+"You will get your orders, deadlines, reviews and messages here.\n"
+"Sign in with the username: <b>%(username)s</b>\n"
+"\n"
+"/tasks — your open orders"
+msgstr "<b>Вы подключены к CMD Agency</b>\nСюда будут приходить заказы, сроки, результаты проверки и сообщения.\nВаш логин для входа: <b>%(username)s</b>\n\n/tasks — ваши открытые заказы"
+
+#: api/telegram.py:158 api/telegram.py:300
+msgid "Open CMD"
+msgstr "Открыть CMD"
+
+#: api/telegram.py:179
+msgid "⏰ Deadline in less than 24 hours"
+msgstr "⏰ До срока меньше 24 часов"
+
+#: api/telegram.py:179
+#, python-format
+msgid "“%(title)s” is due soon."
+msgstr "Скоро срок сдачи «%(title)s»."
+
+#: api/telegram.py:186
+msgid "⚠️ Order overdue"
+msgstr "⚠️ Заказ просрочен"
+
+#: api/telegram.py:187
+#, python-format
+msgid "“%(title)s” has passed its deadline."
+msgstr "Срок сдачи «%(title)s» истёк."
+
+#: api/telegram.py:221
+msgid "You have no open orders. 🎉"
+msgstr "Открытых заказов нет. 🎉"
+
+#: api/telegram.py:223
+msgid "Your open orders"
+msgstr "Ваши открытые заказы"
+
+#: api/telegram.py:225 api/views.py:388
+msgid "no deadline"
+msgstr "без срока"
+
+#: api/telegram.py:232
+#, python-format
+msgid "Waiting for your review: %(n)s"
+msgstr "Ждут вашей проверки: %(n)s"
+
+#: api/telegram.py:237
+msgid "<b>CMD Agency bot</b>"
+msgstr "<b>Бот CMD Agency</b>"
+
+#: api/telegram.py:237
+msgid "/tasks — your open orders and deadlines"
+msgstr "/tasks — ваши открытые заказы и сроки"
+
+#: api/telegram.py:237
+msgid "/id — your chat ID"
+msgstr "/id — ваш chat ID"
+
+#: api/telegram.py:238
+msgid "/stop — pause notifications"
+msgstr "/stop — приостановить уведомления"
+
+#: api/telegram.py:238
+msgid "/resume — turn notifications back on"
+msgstr "/resume — снова включить уведомления"
+
+#: api/telegram.py:254
+msgid "✅ Approved"
+msgstr "✅ Одобрено"
+
+#: api/telegram.py:254
+msgid "❌ Denied"
+msgstr "❌ Отклонено"
+
+#: api/telegram.py:254
+msgid "Already decided or expired."
+msgstr "Решение уже принято, или запрос истёк."
+
+#: api/telegram.py:283
+#, python-format
+msgid "✅ Connected as <b>%(name)s</b>. Notifications will arrive here."
+msgstr "✅ Подключено: <b>%(name)s</b>. Уведомления будут приходить сюда."
+
+#: api/telegram.py:286
+msgid ""
+"This connect link has expired. Open Settings in the app and press “Connect "
+"Telegram” again."
+msgstr "Ссылка для подключения устарела. Откройте «Настройки» в приложении и снова нажмите «Подключить Telegram»."
+
+#: api/telegram.py:289 api/telegram.py:297
+#, python-format
+msgid "Your chat ID: <code>%(id)s</code>"
+msgstr "Ваш chat ID: <code>%(id)s</code>"
+
+#: api/telegram.py:291
+#, python-format
+msgid "You are connected as <b>%(name)s</b>."
+msgstr "Вы подключены как <b>%(name)s</b>."
+
+#: api/telegram.py:293
+msgid ""
+"Send this number to your manager so they can add it to your profile, or "
+"connect yourself in the app: Settings → Notifications → Connect Telegram."
+msgstr "Отправьте этот номер менеджеру, чтобы он добавил его в ваш профиль, или подключитесь сами в приложении: Настройки → Уведомления → Подключить Telegram."
+
+#: api/telegram.py:297
+msgid "This chat is not connected to a CMD account yet."
+msgstr "Этот чат пока не привязан к аккаунту CMD."
+
+#: api/telegram.py:303
+msgid "Notifications are paused. Send /resume to turn them back on."
+msgstr "Уведомления приостановлены. Отправьте /resume, чтобы снова их включить."
+
+#: api/telegram.py:306
+msgid "Notifications are on again."
+msgstr "Уведомления снова включены."
+
+#: api/telegram.py:337
+msgid "Telegram is not set up yet."
+msgstr "Telegram ещё не настроен."
+
+#: api/telegram.py:339 api/views.py:113
+msgid "Turn off two-step sign-in before changing or disconnecting Telegram."
+msgstr "Чтобы сменить или отключить Telegram, сначала выключите двухэтапный вход."
+
+#: api/telegram.py:349
+msgid "Connect Telegram first."
+msgstr "Сначала подключите Telegram."
+
+#: api/telegram.py:351
+msgid "🔔 Test notification from CMD Agency. Everything works!"
+msgstr "🔔 Тестовое уведомление от CMD Agency. Всё работает!"
+
+#: api/telegram.py:352
+msgid ""
+"Telegram did not accept the message. Press Start in the bot and try again."
+msgstr "Telegram не принял сообщение. Нажмите «Старт» в боте и попробуйте снова."
+
+#: api/templates/oauth_authorize.html:5
+msgid "Connect Claude to CMD Agency"
+msgstr "Подключение Claude к CMD Agency"
+
+#: api/templates/oauth_authorize.html:35
+msgid "Can’t connect"
+msgstr "Не удаётся подключиться"
+
+#: api/templates/oauth_authorize.html:38
+msgid "Connect Claude"
+msgstr "Подключить Claude"
+
+#: api/templates/oauth_authorize.html:39
+#, python-format
+msgid "<b>%(name)s</b> wants to work in CMD Agency as you."
+msgstr "<b>%(name)s</b> хочет работать в CMD Agency от вашего имени."
+
+#: api/templates/oauth_authorize.html:40
+msgid "It will be able to:"
+msgstr "Он сможет:"
+
+#: api/templates/oauth_authorize.html:42
+msgid "see and manage clients, projects, content, orders and the calendar"
+msgstr "просматривать и вести клиентов, проекты, контент, заказы и календарь"
+
+#: api/templates/oauth_authorize.html:43
+msgid "assign work and message your team"
+msgstr "назначать работу и писать вашей команде"
+
+#: api/templates/oauth_authorize.html:44
+msgid "only what your role allows in the app"
+msgstr "только то, что разрешено вашей роли в приложении"
+
+#: api/templates/oauth_authorize.html:46
+msgid ""
+"It will ask you first — in the app and in Telegram — before it sees any "
+"finance data or deletes anything. It can’t open settings or passwords."
+msgstr "Прежде чем увидеть финансовые данные или что-либо удалить, он спросит вас — в приложении и в Telegram. Настройки и пароли ему недоступны."
+
+#: api/templates/oauth_authorize.html:53
+msgid "Code from Telegram"
+msgstr "Код из Telegram"
+
+#: api/templates/oauth_authorize.html:58
+msgid "Password"
+msgstr "Пароль"
+
+#: api/templates/oauth_authorize.html:63
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: api/templates/oauth_authorize.html:63
+msgid "Sign in and allow"
+msgstr "Войти и разрешить"
+
+#: api/templates/oauth_authorize.html:64
+msgid "Cancel"
+msgstr "Отмена"
+
+#: api/templates/oauth_authorize.html:67
+msgid ""
+"You can disconnect it any time in Settings → Security → Connected AI apps."
+msgstr "Отключить его можно в любой момент: Настройки → Безопасность → Подключённые ИИ-приложения."
+
+#: api/test_finance.py:100 api/views.py:295
+msgid "New order"
+msgstr "Новый заказ"
+
+#: api/test_finance.py:100 api/views.py:295
+#, python-format
+msgid "You have a new order: %(title)s"
+msgstr "У вас новый заказ: %(title)s"
+
+#: api/video_quota.py:60
+msgid "The review queue is full. Ask the reviewer to clear pending videos."
+msgstr "Очередь на проверку заполнена. Попросите проверяющего разобрать ожидающие видео."
+
+#: api/video_views.py:150
+msgid "Video storage is temporarily unavailable. Please try again."
+msgstr "Хранилище видео временно недоступно. Повторите попытку."
+
+#: api/video_views.py:205
+msgid "Only the uploader can continue this upload."
+msgstr "Продолжить загрузку может только тот, кто её начал."
+
+#: api/video_views.py:207
+msgid "This upload is no longer in progress."
+msgstr "Эта загрузка уже не выполняется."
+
+#: api/video_views.py:225
+msgid "Only editors and videographers can submit work."
+msgstr "Сдавать работу могут только монтажёры и видеографы."
+
+#: api/video_views.py:231
+msgid "Task not found."
+msgstr "Задача не найдена."
+
+#: api/video_views.py:235 api/views.py:400
+msgid "This order starts after the previous step is approved."
+msgstr "Этот заказ можно начать после утверждения предыдущего этапа."
+
+#: api/video_views.py:240 api/video_views.py:340
+msgid "Project not found."
+msgstr "Проект не найден."
+
+#: api/video_views.py:245
+msgid "That content item does not belong to this project."
+msgstr "Этот материал не относится к данному проекту."
+
+#: api/video_views.py:247
+msgid "You are not assigned to this project."
+msgstr "Вы не назначены на этот проект."
+
+#: api/video_views.py:251
+#, python-format
+msgid "Version %(v)s is still waiting for review."
+msgstr "Версия %(v)s ещё ожидает проверки."
+
+#: api/video_views.py:264
+msgid "File name is required."
+msgstr "Укажите имя файла."
+
+#: api/video_views.py:271 api/views.py:440
+msgid "File size is required."
+msgstr "Укажите размер файла."
+
+#: api/video_views.py:274
+msgid "The file is empty."
+msgstr "Файл пустой."
+
+#: api/video_views.py:276
+#, python-format
+msgid "The file is too large (%(size)s MB). The maximum is %(max)s MB."
+msgstr "Файл слишком большой (%(size)s МБ). Максимальный размер — %(max)s МБ."
+
+#: api/video_views.py:307
+msgid "Choose what the footage was handed over on."
+msgstr "Выберите, на каком носителе передан материал."
+
+#: api/video_views.py:312
+msgid "Choose the manager who received it."
+msgstr "Выберите менеджера, который его получил."
+
+#: api/video_views.py:317
+msgid "The handover time can’t be in the future."
+msgstr "Время передачи не может быть в будущем."
+
+#: api/video_views.py:328
+msgid "Work handed over in person"
+msgstr "Работа передана лично"
+
+#: api/video_views.py:329
+#, python-format
+msgid ""
+"%(name)s handed over %(what)s in person (%(media)s). Confirm once you have "
+"it."
+msgstr "%(name)s лично передал(а) %(what)s (%(media)s). Подтвердите, когда получите."
+
+#: api/video_views.py:349
+msgid "part_number is required."
+msgstr "Не указан номер части (part_number)."
+
+#: api/video_views.py:351
+msgid "part_number must be between 1 and 10000."
+msgstr "Номер части (part_number) должен быть от 1 до 10 000."
+
+#: api/video_views.py:371
+msgid "parts are required."
+msgstr "Не переданы части файла."
+
+#: api/video_views.py:375
+msgid "Malformed parts list."
+msgstr "Некорректный список частей файла."
+
+#: api/video_views.py:377
+msgid "The upload could not be completed. Please upload the file again."
+msgstr "Не удалось завершить загрузку. Загрузите файл ещё раз."
+
+#: api/video_views.py:394
+msgid "This upload was already completed."
+msgstr "Эта загрузка уже завершена."
+
+#: api/video_views.py:404
+msgid "New submission to review"
+msgstr "Новая работа на проверку"
+
+#: api/video_views.py:404
+#, python-format
+msgid "%(name)s submitted %(what)s for review."
+msgstr "%(name)s отправил(а) на проверку: %(what)s."
+
+#: api/video_views.py:406
+#, python-format
+msgid "[CMD] %(name)s submitted %(what)s for review"
+msgstr "[CMD] %(name)s отправил(а) на проверку: %(what)s"
+
+#: api/video_views.py:407
+#, python-format
+msgid ""
+"%(name)s submitted %(what)s for review.\n"
+"\n"
+"File: %(file)s\n"
+"Note: %(note)s\n"
+"\n"
+"Open and review: %(link)s\n"
+msgstr "%(name)s отправил(а) на проверку: %(what)s.\n\nФайл: %(file)s\nКомментарий: %(note)s\n\nОткрыть и проверить: %(link)s\n"
+
+#: api/video_views.py:452
+msgid "Only the project manager or an owner can review this submission."
+msgstr "Проверить эту работу может только менеджер проекта или владелец."
+
+#: api/video_views.py:456
+msgid "The decision must be “approved” or “rejected”."
+msgstr "Решение должно быть «approved» (утвердить) или «rejected» (отклонить)."
+
+#: api/video_views.py:458
+msgid "A comment is required when requesting changes."
+msgstr "При отправке на доработку добавьте комментарий."
+
+#: api/video_views.py:464
+msgid "This submission has already been reviewed."
+msgstr "Эта работа уже проверена."
+
+#: api/video_views.py:478
+msgid "Order ready to start"
+msgstr "Заказ можно начинать"
+
+#: api/video_views.py:479
+#, python-format
+msgid "The previous step was approved. You can start “%(title)s” now."
+msgstr "Предыдущий этап утверждён. Можно приступать к заказу «%(title)s»."
+
+#: api/video_views.py:480
+#, python-format
+msgid "[CMD] Ready to start: %(title)s"
+msgstr "[CMD] Можно начинать: %(title)s"
+
+#: api/video_views.py:481
+#, python-format
+msgid ""
+"The previous step was approved. You can start “%(title)s” now.\n"
+"\n"
+"%(link)s\n"
+msgstr "Предыдущий этап утверждён. Можно приступать к заказу «%(title)s».\n\n%(link)s\n"
+
+#: api/video_views.py:484
+msgid "Handover confirmed"
+msgstr "Получение подтверждено"
+
+#: api/video_views.py:484
+#, python-format
+msgid "%(name)s confirmed receiving %(what)s. Comment: %(comment)s"
+msgstr "%(name)s подтвердил(а) получение: %(what)s. Комментарий: %(comment)s"
+
+#: api/video_views.py:485
+#, python-format
+msgid "%(name)s confirmed receiving %(what)s."
+msgstr "%(name)s подтвердил(а) получение: %(what)s."
+
+#: api/video_views.py:486
+#, python-format
+msgid "[CMD] %(what)s received"
+msgstr "[CMD] Получено: %(what)s"
+
+#: api/video_views.py:486 api/video_views.py:490
+#, python-format
+msgid "View it: %(link)s\n"
+msgstr "Посмотреть: %(link)s\n"
+
+#: api/video_views.py:488
+msgid "Submission approved"
+msgstr "Работа утверждена"
+
+#: api/video_views.py:488
+#, python-format
+msgid "%(what)s was approved by %(name)s. Comment: %(comment)s"
+msgstr "%(name)s утвердил(а) работу: %(what)s. Комментарий: %(comment)s"
+
+#: api/video_views.py:489
+#, python-format
+msgid "%(what)s was approved by %(name)s."
+msgstr "%(name)s утвердил(а) работу: %(what)s."
+
+#: api/video_views.py:490
+#, python-format
+msgid "[CMD] %(what)s approved"
+msgstr "[CMD] Работа утверждена: %(what)s"
+
+#: api/video_views.py:492
+msgid "Submission needs revision"
+msgstr "Работа отправлена на доработку"
+
+#: api/video_views.py:492
+#, python-format
+msgid "%(what)s was sent back for revision by %(name)s. Comment: %(comment)s"
+msgstr "%(name)s отправил(а) работу на доработку: %(what)s. Комментарий: %(comment)s"
+
+#: api/video_views.py:493
+#, python-format
+msgid "%(what)s was sent back for revision by %(name)s."
+msgstr "%(name)s отправил(а) работу на доработку: %(what)s."
+
+#: api/video_views.py:494
+#, python-format
+msgid "[CMD] %(what)s sent back for revision"
+msgstr "[CMD] Работа отправлена на доработку: %(what)s"
+
+#: api/video_views.py:494
+#, python-format
+msgid "Upload a new version: %(link)s\n"
+msgstr "Загрузите новую версию: %(link)s\n"
+
+#: api/video_views.py:508
+msgid "timestamp_seconds cannot be negative."
+msgstr "Отметка времени (timestamp_seconds) не может быть отрицательной."
+
+#: api/video_views.py:511
+msgid "New comment"
+msgstr "Новый комментарий"
+
+#: api/video_views.py:511
+#, python-format
+msgid "%(name)s commented on %(what)s: %(body)s"
+msgstr "%(name)s оставил(а) комментарий к работе %(what)s: %(body)s"
+
+#: api/views.py:28
+msgid ""
+"Status follows the production sequence and can’t be set by hand: Start "
+"working → Submit work → review (approve / request changes) → Mark published."
+msgstr "Статус меняется по ходу производства, вручную его задать нельзя: «Начать работу» → «Сдать работу» → проверка (утвердить или отправить на доработку) → «Отметить как опубликованное»."
+
+#: api/views.py:101
+msgid "You cannot delete your own account."
+msgstr "Нельзя удалить собственную учётную запись."
+
+#: api/views.py:181
+msgid ""
+"Archive the project first. Projects can only be deleted from the archive."
+msgstr "Сначала переместите проект в архив. Удалять проекты можно только из архива."
+
+#: api/views.py:204
+msgid "New project assigned"
+msgstr "Вам назначен новый проект"
+
+#: api/views.py:205
+#, python-format
+msgid "You are the project manager for “%(name)s”."
+msgstr "Вы назначены менеджером проекта «%(name)s»."
+
+#: api/views.py:233
+msgid "Only the owner can create this kind of template."
+msgstr "Создавать такие шаблоны может только владелец."
+
+#: api/views.py:239
+msgid "Only the person who made this template can change or delete it."
+msgstr "Изменить или удалить этот шаблон может только его автор."
+
+#: api/views.py:270 api/views.py:282
+msgid "New content assigned"
+msgstr "Вам назначен новый материал"
+
+#: api/views.py:271 api/views.py:282
+#, python-format
+msgid "You were assigned to “%(title)s”."
+msgstr "Вас назначили на материал «%(title)s»."
+
+#: api/views.py:292
+msgid "Upcoming order"
+msgstr "Предстоящий заказ"
+
+#: api/views.py:292
+#, python-format
+msgid "“%(title)s” starts after the previous step is approved."
+msgstr "Заказ «%(title)s» можно будет начать после утверждения предыдущего этапа."
+
+#: api/views.py:304
+msgid "Content must be approved before publishing."
+msgstr "Перед публикацией материал должен быть утверждён."
+
+#: api/views.py:353 api/views.py:381
+msgid "New task assigned"
+msgstr "Вам назначена новая задача"
+
+#: api/views.py:353 api/views.py:381
+#, python-format
+msgid "You have been assigned a new task: %(title)s"
+msgstr "Вам назначена новая задача: %(title)s"
+
+#: api/views.py:359
+msgid ""
+"Orders are changed by the project manager. Use “Start working” or “Submit "
+"work”."
+msgstr "Заказы изменяет менеджер проекта. Используйте кнопки «Начать работу» или «Сдать работу»."
+
+#: api/views.py:383
+msgid "Order reassigned"
+msgstr "Заказ передан другому"
+
+#: api/views.py:383
+#, python-format
+msgid ""
+"“%(title)s” was given to someone else by %(name)s. You don’t need to work on "
+"it any more."
+msgstr "%(name)s передал(а) «%(title)s» другому исполнителю. Работать над ним больше не нужно."
+
+#: api/views.py:389
+msgid "Deadline changed"
+msgstr "Срок изменён"
+
+#: api/views.py:389
+#, python-format
+msgid "New deadline for “%(title)s”: %(due)s"
+msgstr "Новый срок для «%(title)s»: %(due)s"
+
+#: api/views.py:398
+msgid "Only the person assigned to this order can start it."
+msgstr "Начать этот заказ может только назначенный исполнитель."
+
+#: api/views.py:403
+msgid "This order has already been started."
+msgstr "Работа по этому заказу уже начата."
+
+#: api/views.py:418
+msgid "Order not found."
+msgstr "Заказ не найден."
+
+#: api/views.py:442
+msgid "Choose a file to send."
+msgstr "Выберите файл для отправки."
+
+#: api/views.py:445
+#, python-format
+msgid ""
+"Files in chat can be up to %(mb)s MB. Use “Submit work” for larger "
+"deliveries."
+msgstr "В чат можно отправлять файлы до %(mb)s МБ. Файлы большего размера отправляйте через «Сдать работу»."
+
+#: api/views.py:455
+msgid "File storage is unavailable right now."
+msgstr "Файловое хранилище сейчас недоступно."
+
+#: api/views.py:466
+msgid "That file is not available. Please attach it again."
+msgstr "Файл недоступен. Прикрепите его ещё раз."
+
+#: api/views.py:472
+msgid "The file upload did not complete. Please attach it again."
+msgstr "Загрузка файла не завершилась. Прикрепите его ещё раз."
+
+#: api/views.py:485
+msgid "Message is empty."
+msgstr "Сообщение пустое."
+
+#: api/views.py:534
+msgid "Not your order."
+msgstr "Это не ваш заказ."
+
+#: api/views.py:590
+msgid "You can only delete your own comments."
+msgstr "Удалять можно только свои комментарии."
+
+#: api/views.py:602
+msgid "Notifications are created by the system."
+msgstr "Уведомления создаются системой автоматически."
+
+#: api/views.py:704
+msgid "Role not recognized."
+msgstr "Неизвестная роль."
+
+#: api/workflow.py:44
+msgid "Choose “Shoot → Edit”, “Edit only” or “Shoot only”."
+msgstr "Выберите «Съёмка → Монтаж», «Только монтаж» или «Только съёмка»."
+
+#: api/workflow.py:46
+msgid "Production has already started for this content item."
+msgstr "Производство этого материала уже запущено."
+
+#: api/workflow.py:55
+msgid "Choose an active videographer for the shoot step."
+msgstr "Выберите активного видеографа для этапа съёмки."
+
+#: api/workflow.py:55
+msgid "Choose an active editor for the edit step."
+msgstr "Выберите активного монтажёра для этапа монтажа."
+
+#: api/workflow.py:58
+msgid "Set a deadline for the shoot step."
+msgstr "Укажите срок для этапа съёмки."
+
+#: api/workflow.py:58
+msgid "Set a deadline for the edit step."
+msgstr "Укажите срок для этапа монтажа."
+
+#: api/workflow.py:62
+msgid "Invalid date."
+msgstr "Некорректная дата."
+
+#: api/workflow.py:64
+msgid "The edit deadline must be after the shoot deadline."
+msgstr "Срок монтажа должен быть позже срока съёмки."
+
+#: api/workflow.py:67
+#, python-format
+msgid "Shoot: %(title)s"
+msgstr "Съёмка: %(title)s"
+
+#: api/workflow.py:67
+#, python-format
+msgid "Edit: %(title)s"
+msgstr "Монтаж: %(title)s"
+
+#: api/workspace_views.py:81
+msgid "The event must end after it starts."
+msgstr "Событие должно заканчиваться позже, чем начинается."
+
+#: api/workspace_views.py:89
+msgid "Only the managers of this project can add to its workspace."
+msgstr "Добавлять материалы в рабочее пространство проекта могут только его менеджеры."
+
+#: api/workspace_views.py:151
+msgid "Personal to-dos are for yourself. Add it to a project to assign it."
+msgstr "Личные задачи — только для вас. Чтобы назначить задачу другому человеку, добавьте её в проект."
+
+#: api/workspace_views.py:154
+msgid "New to-do"
+msgstr "Новая задача"
+
+#: api/workspace_views.py:154
+#, python-format
+msgid "%(name)s gave you a to-do: %(title)s"
+msgstr "%(name)s поставил(а) вам задачу: %(title)s"
+
+#: api/workspace_views.py:163
+msgid "You can only mark this to-do as done."
+msgstr "Эту задачу можно только отметить как выполненную."
+
+#: api/workspace_views.py:173
+msgid "You can’t delete this to-do."
+msgstr "Эту задачу нельзя удалить."
+
+#: api/workspace_views.py:202
+msgid "New event"
+msgstr "Новое событие"
+
+#: api/workspace_views.py:202
+#, python-format
+msgid "%(name)s invited you: %(title)s · %(when)s"
+msgstr "%(name)s приглашает вас: %(title)s · %(when)s"
+
+#: api/workspace_views.py:207
+msgid "Only the organiser or the project’s manager can change this event."
+msgstr "Изменить это событие может только организатор или менеджер проекта."
+
+#: api/workspace_views.py:214
+msgid "Only the organiser or the project’s manager can delete this event."
+msgstr "Удалить это событие может только организатор или менеджер проекта."
+
+#: api/workspace_views.py:226
+msgid "Pass start and end dates (at most about 2 months apart)."
+msgstr "Укажите даты начала и окончания (не более чем примерно 2 месяца между ними)."
+
+#: api/workspace_views.py:257
+#, python-format
+msgid "Publish: %(title)s"
+msgstr "Публикация: %(title)s"
+
+#: api/workspace_views.py:268 api/workspace_views.py:278
+msgid "Personal"
+msgstr "Личное"

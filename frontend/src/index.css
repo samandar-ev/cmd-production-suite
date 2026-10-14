@@ -1,0 +1,163 @@
+@import 'tailwindcss';
+@import '@fontsource/golos-text/400.css';
+@import '@fontsource/golos-text/500.css';
+@import '@fontsource/golos-text/600.css';
+@import '@fontsource/golos-text/700.css';
+@import '@fontsource/unbounded/500.css';
+@import '@fontsource/unbounded/600.css';
+
+@theme {
+  --font-sans: 'Golos Text', system-ui, sans-serif;
+  --font-display: 'Unbounded', 'Golos Text', sans-serif;
+
+  --color-wall: #e9ece6;
+  --color-paper: #ffffff;
+  --color-ink: #1a1f2b;
+  --color-graphite: #5d6472;
+  --color-mist: #8c929c;
+  --color-hairline: #d5d9d1;
+  --color-haze: #f3f5f1;
+  --color-tally: #e8452c;
+
+  --color-plan: #2f9dc2;
+  --color-shoot: #c99413;
+  --color-edit: #a548ba;
+  --color-review: #3c67d6;
+  --color-publish: #2c9466;
+
+  --radius-control: 8px;
+  --radius-panel: 14px;
+  --radius-clip: 6px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-wall text-ink font-sans antialiased;
+    font-size: 15px;
+    line-height: 1.5;
+    font-feature-settings: 'tnum' 0;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-review);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--color-review) 22%, transparent);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  .display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 min-h-10 py-1.5 px-4 rounded-[var(--radius-control)] text-[14px] font-semibold
+      leading-tight text-center max-w-full select-none transition-colors disabled:opacity-45 disabled:pointer-events-none;
+  }
+  .btn svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+  .btn-sm {
+    @apply min-h-8 py-1 px-3 text-[13px];
+  }
+  .btn-primary {
+    @apply bg-ink text-paper hover:bg-[#2A3142];
+  }
+  .btn-quiet {
+    @apply bg-paper text-ink border border-hairline hover:border-mist;
+  }
+  .btn-ghost {
+    @apply text-graphite hover:text-ink hover:bg-haze;
+  }
+  .btn-danger {
+    @apply bg-tally text-paper hover:bg-[#cf3a22];
+  }
+  .btn-icon {
+    @apply inline-flex items-center justify-center h-10 w-10 rounded-[var(--radius-control)] text-graphite transition-colors
+      hover:text-ink hover:bg-haze disabled:opacity-45;
+  }
+
+  .field {
+    @apply w-full h-10 px-3 rounded-[var(--radius-control)] bg-paper border border-hairline text-[15px] text-ink
+      placeholder:text-mist transition-colors hover:border-mist focus:outline-none focus:border-ink;
+  }
+  textarea.field {
+    @apply h-auto py-2.5 leading-relaxed resize-none;
+  }
+  select.field {
+    @apply pr-9 appearance-none bg-no-repeat;
+    background-position: right 12px center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%235D6472' stroke-width='1.8' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  }
+  .label {
+    @apply block text-[13px] font-semibold text-graphite mb-1.5;
+  }
+
+  .panel {
+    @apply bg-paper rounded-[var(--radius-panel)] border border-hairline min-w-0;
+  }
+  .rule {
+    @apply border-hairline;
+  }
+
+  .seg {
+    @apply inline-flex max-w-full overflow-x-auto p-1 gap-1 rounded-[10px] bg-haze border border-hairline;
+    scrollbar-width: none;
+  }
+  .seg > button {
+    @apply h-8 px-3 rounded-[7px] text-[13px] font-semibold text-graphite transition-colors whitespace-nowrap shrink-0;
+  }
+  .seg > button[aria-pressed='true'] {
+    @apply bg-paper text-ink shadow-[0_1px_2px_rgba(26,31,43,.08)];
+  }
+}
+
+@layer utilities {
+  .sheet-in {
+    animation: sheet-in 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  @keyframes sheet-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .scroll-x {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+}

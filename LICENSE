@@ -1,0 +1,24 @@
+Copyright (c) 2026 Samandar Erkinov. All rights reserved.
+
+This repository and everything in it — source code, documentation, designs, images and other materials
+(the "Software") — are the exclusive property of the copyright holder and are protected by copyright law.
+
+The Software is published for viewing and evaluation only. No licence is granted to you, whether expressly,
+by implication or otherwise, except the right to view the Software on GitHub as permitted by GitHub's Terms of
+Service.
+
+Without the prior written permission of the copyright holder, you may not:
+
+  1. use, run, deploy or host the Software, in whole or in part, for any purpose;
+  2. copy, reproduce, modify, adapt, translate or create derivative works of the Software;
+  3. distribute, publish, sublicense, sell, rent or otherwise make the Software available to any third party;
+  4. incorporate the Software, or any part of it, into any other software, product or service;
+  5. use the Software, or any part of it, to train, fine-tune or evaluate machine-learning models.
+
+Any use not expressly permitted above is prohibited and may result in civil and criminal liability.
+
+Requests for permission should be made to the copyright holder through GitHub.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH
+THE SOFTWARE OR ITS USE.
